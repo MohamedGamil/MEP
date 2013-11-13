@@ -1,0 +1,1 @@
+Mousemove Element Positioning jQuery Plugin===A jQuery Plugin that helps positioning elements based on Mouse Movement. See `example.html` for usage.

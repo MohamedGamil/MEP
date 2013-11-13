@@ -1,0 +1,288 @@
+/*
+ * Example Page Styling - NOT REQUIRED BY THE PLUGIN.
+ * - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * @author		Gemy.me, <www.gemy.me>.
+ * @copyright	Gemy.me 2013 All Rights Reserved.
+ * @license		MIT
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0.5em;
+  padding: 0;
+}
+
+a, a:visited, a:focus, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+html, body {
+  font-size: 1em;
+  line-height: 1.4;
+  overflow-x: hidden;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body.theme-rtl {
+  direction: rtl;
+}
+
+fieldset.reset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea {
+  display: block;
+  outline: none;
+  color: #222;
+}
+
+input[type="checkbox"], input[type="radio"], input[type="submit"] {
+  width: auto;
+}
+
+button {
+  width: auto;
+}
+
+h0 {
+  font-weight: 700;
+}
+h0:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+h1:first-child {
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 700;
+}
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: 700;
+}
+h3:first-child {
+  margin-top: 0;
+}
+
+h4 {
+  font-weight: 700;
+}
+h4:first-child {
+  margin-top: 0;
+}
+
+h5 {
+  font-weight: 700;
+}
+h5:first-child {
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.6;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+aside .widget,
+aside .block {
+  margin-bottom: 20px;
+}
+aside .widget:last-child,
+aside .block:last-child {
+  margin-bottom: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.opaque {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  -moz-opacity: 1 !important;
+  -khtml-opacity: 1 !important;
+  -webkit-opacity: 1 !important;
+}
+.opaque:hover {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  -moz-opacity: 1 !important;
+  -khtml-opacity: 1 !important;
+  -webkit-opacity: 1 !important;
+}
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix,
+.cf {
+  *zoom: 1;
+}
+.clearfix:before, .clearfix:after,
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.cf:after {
+  clear: both;
+}
+
+.rr {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.dir-ltr, .dir-ltr {
+  display: inline-block;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  padding: 0.4em 0.8em;
+  color: #222;
+  background: #CCC;
+}
+.browsehappy a {
+  display: inline-block;
+  padding-bottom: 0.1em;
+  border-bottom: 1px dotted #999;
+}
+.browsehappy a:hover {
+  border-bottom-color: #222;
+}
+
+#testing-div, #testing-div2, #testing-div3 {
+  height: 220px;
+  background: #EEE;
+  z-index: 1;
+}
+#testing-div h2, #testing-div2 h2, #testing-div3 h2 {
+  padding: 2rem;
+  color: #07B54F;
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#testing-div2 h2 {
+  font-size: 2.5rem;
+}
+
+#testing-div3 h2 {
+  font-size: 1.5rem;
+}
+
+.testing-4 {
+  background: #DDD;
+}
+.testing-4 h2 {
+  padding: 2rem;
+  color: #07B54F;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.testing-4 .left {
+  float: left;
+}
+.testing-4 .right {
+  float: right;
+}
