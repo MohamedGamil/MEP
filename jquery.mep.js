@@ -125,7 +125,7 @@
 				e.data('has_mep_tracker', true);
 			}
 			
-			this.instanceID	= Math.ceil( Math.random() * 1000 );
+			// this.instanceID	= Math.ceil( Math.random() * 1000 );
 			return this;
 		},
 	};
